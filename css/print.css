@@ -1,0 +1,10 @@
+@media print{body{color:#000;background:#fff;padding:0;font-size:16px}
+.menu,.portrait__img,.polaroids{display:none}
+.wrapper{border:none}
+.header{padding-left:40px}
+.title,.text h3{color:#3c4756}
+.portrait{padding:0}
+.contacts{list-style:none;padding:0;margin:30px 0;font-size:18px}
+.contacts{display:block}
+.print-version-page-break{page-break-after:always}
+}
