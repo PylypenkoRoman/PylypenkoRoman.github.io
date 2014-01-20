@@ -24,14 +24,41 @@ grunt.initConfig({
         },
     },
 
-	watch: {
-		files: 'styl/*.styl',
-		tasks: ['stylus', 'autoprefixer'],
+    csso: {
+		files: {
+			'css/screen_min.css': ['css/screen.css']
+		}
 	},
+
+	watch: {
+		style: {
+			files: 'styl/*.styl',
+			tasks: ['stylus', 'autoprefixer'],
+		},
+		// css: {
+		// 	files: 'css/*.css',
+		// 	tasks: ['csso'],
+		// },
+	},
+ //    csscomb: {
+ //        options: {
+ //            config: 'csscomb.json'
+ //        },
+ //        files: {
+ //            src: 'styl/screen.styl'
+ //        },         grunt.loadNpmTasks('grunt-csscomb');
+ //    }
 });
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-stylus');
 	grunt.loadNpmTasks('grunt-autoprefixer');
+	grunt.loadNpmTasks('grunt-csso');
 
 	grunt.registerTask( 'default', ['watch']);
+	grunt.registerTask( 'release', ['stylus', 'autoprefixer', 'csso']);
 };
+
+
+
+
+
