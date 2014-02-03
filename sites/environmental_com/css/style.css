@@ -1,0 +1,270 @@
+@font-face{
+    font-family: 'CenturyGothicRegular';
+    src: url('gothic.eot');
+    src: url('gothic.eot') format('embedded-opentype'),
+         url('gothic.woff') format('woff'),
+         url('gothic.ttf') format('truetype'),
+         url('gothic.svg#CenturyGothicRegular') format('svg');
+}
+body{
+	margin: 0;
+	background: #fff;
+	font-family: 'CenturyGothicRegular', sans-serif;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 1024px;
+}
+.header{
+	position: relative;
+	height: 113px;
+	background: #353a33;
+}
+.logo{
+	position:  absolute;
+	top: 32px;
+	left: 50px;
+	width: 366px;
+	height: 47px;
+	background: url("../img/logo.png") no-repeat;
+	color: transparent;
+	text-shadow: none;
+	font: 0/0 a;
+}
+.logo a{
+	display:block;
+	height:100%;
+}
+.support{
+	position: absolute;
+	top: 53px;
+	right: 37px;
+	color: #fff;
+	font-size: 12px;
+}
+.menu{
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	margin: 0; padding: 0;
+	height: 49px;
+	background: background: #91b558;
+	background: -moz-linear-gradient(top,  #91b558 0%, #85cb16 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#91b558), color-stop(100%,#85cb16));
+	background: -webkit-linear-gradient(top,  #91b558 0%,#85cb16 100%);
+	background: -o-linear-gradient(top,  #91b558 0%,#85cb16 100%);
+	background: -ms-linear-gradient(top,  #91b558 0%,#85cb16 100%);
+	background: linear-gradient(to bottom,  #91b558 0%,#85cb16 100%);
+	box-shadow:0px -3px 7px -4px rgba(0, 0, 0, 0.7),
+				0px 3px 7px -4px rgba(0, 0, 0, 0.7);
+}
+.menu li{
+	float: left;
+	width: 14.2%;
+	list-style: none;
+	text-align: center;
+}
+.menu a{
+	position: relative;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 49px;
+}
+.menu a:after{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -5px;
+	border: 5px solid transparent;
+	border-bottom-color: rgba(255,255,255,0.5);
+	content:'';
+}
+.menu a:hover:after{
+	border-bottom-color: rgba(255,255,255,1);
+}
+.promo{
+	position: relative;
+	width: 1024px;
+	height: 288px;
+	background: url("../img/bg_slogan.png");
+}
+.promo h1{
+	position: absolute;
+	top:52px;
+	left: 52px;
+	margin: 0;
+	width: 500px;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 38px;
+	font-family: 'CenturyGothicRegular', sans-serif;
+}
+.promo h1:before{
+	margin-left: -20px;
+	padding: 5px;
+	content:'"';
+}
+.plant{
+	position: absolute;
+	top: 83px;
+	right: 27px;
+	width: 249px;
+	height: 343px;
+	background: url(../img/plant.png);
+}
+.layout{
+	margin: auto;
+	border-bottom: 1px solid #7fc020;
+	background: #e7ead1;
+}
+.layout:after{
+	display: table;
+	clear: both;
+	content: "";
+}
+.content{
+	position: relative;
+	margin-right: 313px;
+	padding: 29px 17px 0px;
+	padding-bottom: 75px;
+	border-left: 1px solid #bdc1a3;
+	text-align:justify;
+}
+.text-blok:after{
+	display: table;
+	clear: both;
+	content: "";
+}
+.img-left{
+	float: left;
+	margin: 0 17px 10px 0px;
+	border: 1px solid rgba(53,58,51,0.07);
+	border-radius: 13px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.06);
+}
+.text-blok h1{
+	margin: 0 0 18px;
+	font-size: 23px;
+}
+.text-blok h2{
+	margin: 17px 0 14px;
+	font-size: 14px;
+}
+.text-blok p{
+	margin: 14px 0 17px;
+	font-size: 12px;
+	line-height: 15px;
+}
+.gray{
+	color: rgba(53,58,51,0.56);
+}
+.green{
+	color: #4e7d05;
+}
+.dark_gray{
+	color: #353a33;
+}
+.translucent_green{
+	color: #a5bc79;
+}
+.translucent_gray{
+	color: rgba(53,58,51,0.41);
+}
+.read_more_posted{
+	position: absolute;
+	bottom: 50px;
+	left: 18px;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+}
+.read-more{
+	display: inline-block;
+	float: left;
+	margin-right: 37px;
+	width: 107px;
+	height: 25px;
+	border: 1px solid #959a87;
+	border-radius: 10px;
+	background: background: #91b558;
+	background: -moz-linear-gradient(top,  #91b558 0%, #85cb16 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#91b558), color-stop(100%,#85cb16));
+	background: -webkit-linear-gradient(top,  #91b558 0%,#85cb16 100%);
+	background: -o-linear-gradient(top,  #91b558 0%,#85cb16 100%);
+	background: -ms-linear-gradient(top,  #91b558 0%,#85cb16 100%);
+	background: linear-gradient(to bottom,  #91b558 0%,#85cb16 100%);
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 25px;
+	cursor: pointer;
+}
+.read-more:hover{
+	background: rgb(41,154,11);
+	background: -moz-linear-gradient(top,  rgb(41,154,11) 0%, rgb(41,154,11) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(41,154,11)), color-stop(100%,rgb(41,154,11)));
+	background: -webkit-linear-gradient(top,  rgb(41,154,11) 0%,rgb(41,154,11) 100%);
+	background: -o-linear-gradient(top,  rgb(41,154,11) 0%,rgb(41,154,11) 100%);
+	background: -ms-linear-gradient(top,  rgb(41,154,11) 0%,rgb(41,154,11) 100%);
+	background: linear-gradient(to bottom,  rgb(41,154,11) 0%,rgb(41,154,11) 100%);
+}
+.posted{
+	color: #353a33;
+	font-size: 10px;
+	line-height: 25px;
+}
+.sidebar {
+	float: right;
+	width: 313px;
+}
+.about{
+	margin: 188px auto 0;
+	width: 274px;
+	border: 1px solid rgba(53,58,51,0.07);
+	border-radius: 15px;
+	background: #fff;
+}
+.about-head{
+	padding-left: 10px;
+	width: 272;
+	height: 38px;
+	border: 1px solid rgba(53,58,51,0.59);
+	border-radius: 14px 14px 0 0;
+	background: background: #91b558;
+	background: -moz-linear-gradient(top,  #91b558 0%, #85cb16 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#91b558), color-stop(100%,#85cb16)); 
+	background: -webkit-linear-gradient(top,  #91b558 0%,#85cb16 100%);
+	background: -o-linear-gradient(top,  #91b558 0%,#85cb16 100%);
+	background: -ms-linear-gradient(top,  #91b558 0%,#85cb16 100%);
+	background: linear-gradient(to bottom,  #91b558 0%,#85cb16 100%);
+	color: #fff;
+	font-size: 18px;
+	line-height: 38px;
+}
+.about-text{
+	padding: 10px 19px 19px;
+	color: rgba(53,58,51,0.64);
+	text-align: justify;
+	font-size: 12px;
+	line-height: 33px;
+}
+.about-text span{
+	border-bottom: 1px solid rgba(53,58,51,0.36);
+}
+.footer{
+	margin: 0;
+	padding: 0;
+	height: 48px;
+	background: #353a33;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 48px;
+}
+.footer p{
+	margin: 0;
+}

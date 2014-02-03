@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'CherrySwashRegular';
+    src: url('cherryswash-regular.eot');
+    src: url('cherryswash-regular.eot') format('embedded-opentype'),
+         url('cherryswash-regular.woff') format('woff'),
+         url('cherryswash-regular.ttf') format('truetype'),
+         url('cherryswash-regular.svg#CherrySwashRegular') format('svg');
+}
