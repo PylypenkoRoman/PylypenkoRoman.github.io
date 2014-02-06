@@ -25,7 +25,7 @@ body{
 }
 .header{
 	padding: 28px 8px 28px 55px;
-	background: #4D98A3;
+	background: #487dbf;
 }
 .header:after{
 	display: table;
@@ -51,16 +51,24 @@ body{
 .menu_nav{
 	display: inline-block;
 	list-style: none;
+	-webkit-transition: 2s;
+     -moz-transition: 2s;
+     -o-transition: 2s;
+     transition: 2s;
 }
 .menu_nav a{
-	padding-left: 22px;
+	padding: 0 22px;
 	color: #fff;
 	font-size: 20px;
 	text-decoration: none;
 }
+.menu_nav:hover{
+
+}
 .right_slesh:after{
 	content: "/";
-	padding-left:22px;
+	color: #fff;
+	font-size: 20px;
 }
 .promo{
 	position: relative;
@@ -83,20 +91,21 @@ body{
 	bottom: 150px;
 	left: 50%;
 	margin-left: -120px;
-}
-.btn{
-	display: inline-block;
 	width: 240px;
 	height: 52px;
-	font-size: 30px;
-	color: #e4e4e4;
 	border-radius: 5px;
 	text-align:center;
 	border: 3px solid #afb1b4;
-	line-height: 46px;
 	background: transparent;
 }
-.btn:hover{
+.promo_btn a{
+	display: block;
+	font-size: 30px;
+	color: #e4e4e4;
+	text-decoration: none;
+	line-height: 46px;
+}
+.promo_btn a:hover{
 	cursor: pointer;
 	box-shadow: 0 -3px 12px rgba(0,0,0,0.75);
 }
@@ -147,6 +156,18 @@ body{
 .additional_nav li{
 	display: inline-block;
 }
+.additional_nav img{
+	 -webkit-transition: 0.4s;
+     -moz-transition: 0.4s;
+     -o-transition: 0.4s;
+     transition: 0.4s;
+}
+.additional_nav img:hover{
+	-moz-transform: scale(1.4);
+	-webkit-transform: scale(1.4);
+	-o-transform: scale(1.4);
+	-ms-transform: scale(1.4);
+}
 .additional_nav .nav_padding{
 	padding-right: 125px;
 }
@@ -158,6 +179,8 @@ body{
 	margin: 0 auto;
 	text-align: center;
 }
+.green_blok_img img:hover{
+}
 .green_blok p{
 	margin: 60px auto 0;
 	font-size: 18px;
@@ -165,32 +188,55 @@ body{
 	max-width: 900px;
 }
 .map_blok{
-	padding: 52px 0 35px;
-	background: url(../img/map.jpg);
+	position: relative;
+	height: 520px;
+}
+.geolocation{
+	height: 100%;
+	width: 100%;
 }
 .circle{
+	position: absolute;
+	top: 55px;
+	left: 50%;
+	margin-left: -215px;
 	width: 430px;
 	height: 430px;
 	border-radius: 50%;
 	background: rgba( 255, 255, 255, 0.85);
-	margin: 0 auto;
+	z-index: 99;
 }
 .form{
 	text-align: center;
 	padding: 111px 72px 45px 81px;
-	font-size: ;
 }
 .name_email{
 	width: 277px;
 	height: 33px;
 	padding-left: 13px;
 	margin-bottom: 14px;
+	border: 1px solid #c9c5c5;
+	background: #FFF;
+	border-radius: 15px;
+}
+.name_email:focus{
+	outline: none;
+	background: rgba( 201, 197, 197, 0.15);
 }
 .message{
+	border-radius: 15px;
 	width: 277px;
 	height: 82px;
 	padding-left: 13px;
 	margin-bottom: 32px;
+	border: 1px solid #c9c5c5;;
+	background: #FFF;
+	resize: none;
+
+}
+.message:focus{
+	outline: none;
+	background: rgba( 201, 197, 197, 0.15);
 }
 .form_btn{
 	width: 66px;
@@ -199,8 +245,22 @@ body{
 	padding: 0;
 	border: none;
 	cursor: pointer;
-
+	border-radius: 50%;
+	-webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
+.form_btn:hover{
+	-moz-transform: scale(1.25);
+	-webkit-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+}
+.form_btn:focus{
+	outline: none;
+}
+
 .footer{
 	background: #00d089;
 	padding: 12px 0;

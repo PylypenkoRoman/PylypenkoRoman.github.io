@@ -6,6 +6,7 @@
         var i;
 
         function run() {
+            // hiding previous image and showing next
             $(slides[i]).fadeOut(1000);
             i++;
             if (i >= amount) i = 0;
@@ -21,6 +22,7 @@
     };
 })(jQuery);
 
+// custom initialization
 jQuery(window).load(function() {
     $('.smart_gallery').MySlider(3000);
 });
