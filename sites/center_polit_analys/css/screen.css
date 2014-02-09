@@ -5,7 +5,9 @@ body {
   font-family: 'Open Sans',Arial,Helvetica,sans-serif;
   font-size: 14px;
 }
-
+a:hover{
+  border: none;
+}
 .header {
   margin: 0 auto;
   width: 1000px;
@@ -82,14 +84,24 @@ body {
 
 .menu ul li {
   display: inline-block;
+  margin: 0;
 }
 
 .menu ul li a {
+  margin: 0;
+  display: block;
+  height: 34px;
   text-decoration: none;
   padding: 0 15px;
   line-height: 34px;
   color: #d2d2d2;
   font-size: 16px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.menu ul li a:hover {
+  background: #e63030;
 }
 
 .search {
@@ -143,7 +155,7 @@ body {
 }
 
 .additional_menu {
-  padding: 15px;
+  padding: 15px 0;
   background: #f0f0f0;
 }
 
@@ -153,14 +165,22 @@ body {
   list-style: none;
 }
 
-.additional_menu ul li a {
+.additional_menu ul li {
+  padding: 0 15px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.additional_menu ul li:hover {
+  background: #444;
+}
+
+.additional_menu ul a {
   text-decoration: none;
   color: #000;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: lighter;
-  border-bottom: 1px solid #c0c0c0;
   line-height: 1.8;
-  margin-bottom: 20px;
 }
 
 .activity_content {

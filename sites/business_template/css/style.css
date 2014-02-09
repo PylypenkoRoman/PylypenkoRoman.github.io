@@ -23,6 +23,9 @@ body{
 	width: 100%;
 	font-family: 'HelveticaLightLight';
 }
+img{
+	border: none;
+}
 .header{
 	padding: 28px 8px 28px 55px;
 	background: #487dbf;
@@ -51,10 +54,6 @@ body{
 .menu_nav{
 	display: inline-block;
 	list-style: none;
-	-webkit-transition: 2s;
-     -moz-transition: 2s;
-     -o-transition: 2s;
-     transition: 2s;
 }
 .menu_nav a{
 	padding: 0 22px;
@@ -62,8 +61,8 @@ body{
 	font-size: 20px;
 	text-decoration: none;
 }
-.menu_nav:hover{
-
+.menu_nav a:hover{
+	border-bottom: 1px solid #fff;
 }
 .right_slesh:after{
 	content: "/";
@@ -96,18 +95,24 @@ body{
 	border-radius: 5px;
 	text-align:center;
 	border: 3px solid #afb1b4;
-	background: transparent;
 }
 .promo_btn a{
 	display: block;
 	font-size: 30px;
 	color: #e4e4e4;
 	text-decoration: none;
-	line-height: 46px;
+	line-height: 52px;
+	background: transparent;
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+	-o-transition: 2s;
+    transition: 2s;
 }
 .promo_btn a:hover{
 	cursor: pointer;
-	box-shadow: 0 -3px 12px rgba(0,0,0,0.75);
+	background: #FFF;
+	color: #929191;
+
 }
 #slider {
     width:100%;
@@ -209,6 +214,9 @@ body{
 .form{
 	text-align: center;
 	padding: 111px 72px 45px 81px;
+	font-family: 'HelveticaLightLight';
+	color: #a2a2a2;
+	font-size: 14px;
 }
 .name_email{
 	width: 277px;
@@ -218,12 +226,18 @@ body{
 	border: 1px solid #c9c5c5;
 	background: #FFF;
 	border-radius: 15px;
+	font-family: 'HelveticaLightLight';
+	color: #a2a2a2;
+	font-size: 14px;
 }
 .name_email:focus{
 	outline: none;
 	background: rgba( 201, 197, 197, 0.15);
 }
 .message{
+	font-family: 'HelveticaLightLight';
+	color: #a2a2a2;
+	font-size: 14px;
 	border-radius: 15px;
 	width: 277px;
 	height: 82px;

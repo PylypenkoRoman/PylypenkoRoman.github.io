@@ -8,6 +8,14 @@ body {
   color: #333;
 }
 
+img {
+  border: none;
+}
+
+a {
+  outline: none;
+}
+
 .wrapper {
   width: 780px;
   margin: 0 auto;

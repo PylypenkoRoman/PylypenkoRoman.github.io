@@ -16,10 +16,10 @@
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
-  padding-left: 40px;
+  padding-left: 30px;
 }
 .summary-button:hover{
-   left: -5px;
+   left: -10px;
   padding-left: 10px;
 }
 .summary-button a{
@@ -27,7 +27,7 @@
   line-height: 1.5;
   display: block;
   height: 53px;
-  width: 100px;
+  width: 114px;
   text-decoration: none;
   color: #000;
   max-width: 120px;

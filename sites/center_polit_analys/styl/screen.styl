@@ -49,19 +49,30 @@ body
 .menu
 	width 1000px
 	margin 0 auto
-.menu ul
-	margin 0
-	padding 0
-	list-style: none
-	float left
-.menu ul li
-	display inline-block
-.menu ul li a
-	text-decoration none
-	padding 0 15px
-	line-height  34px
-	color #D2D2D2
-	font-size 16px
+	ul
+		margin 0
+		padding 0
+		list-style: none
+		float left
+		li
+			display inline-block
+			margin 0
+			a
+				margin 0
+				display block
+				height 34px
+				text-decoration none
+				padding 0 15px
+				line-height  34px
+				color #D2D2D2
+				font-size 16px
+				-webkit-transition 0.2s
+				-moz-transition 0.2s
+				-o-transition 0.2s
+				transition 0.2s
+				&:hover
+					background #e63030
+
 .search
 	float right
 .search .text_area
@@ -102,20 +113,27 @@ body
 	width 220px
 	float left
 .additional_menu
-	padding 15px
+	padding 15px 0
 	background #f0f0f0
-.additional_menu ul
-	margin 0
-	padding 0
-	list-style: none
-.additional_menu ul li a
-	text-decoration none
-	color #000
-	font-size 18px
-	font-weight lighter
-	border-bottom 1px solid #c0c0c0
-	line-height 1.8
-	margin-bottom 20px
+	ul
+		margin 0
+		padding 0
+		list-style none
+		li
+			padding 0 15px
+			-webkit-transition 0.2s
+			-moz-transition 0.2s
+			-o-transition 0.2s
+			transition 0.2s
+			&:hover
+				background #444
+		a
+			text-decoration none
+			color #000
+			font-size 17px
+			font-weight lighter
+			line-height 1.8
+
 .activity_content
 	margin 28px 0
 .date
