@@ -7,4 +7,7 @@
 .contacts{list-style:none;padding:0;margin:30px 0;font-size:18px}
 .contacts{display:block}
 .print-version-page-break{page-break-after:always}
+.technical-skills-row{margin-bottom: 5px !important;}
+.technical-skills {margin-left: 220px;}
+.technical-block-title{ float: left; }
 }

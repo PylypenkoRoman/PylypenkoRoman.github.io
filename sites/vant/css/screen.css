@@ -1,0 +1,1019 @@
+/*
+* Общие стили
+*/
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("../img/backgrounds/body_bg.png") repeat;
+  font-family: "OpenSans",sans-serif;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.dotted-line-background {
+  height: 40px;
+  background: url("../img/backgrounds/news_header_bg.png") repeat-x;
+  margin: 20px 0;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Данные стили используються в связи с кросбраузерностю на ИЕ8, и отменяют рад стилей на первый либо последний элемент.
+* date - используеться для подписи даты постов и тп серым цветом, 
+*/
+
+.margin-right-none {
+  margin-right: 0 !important;
+}
+
+.text-with-spaces {
+  white-space: pre;
+}
+
+.borden-left-none {
+  border-left: none !important;
+}
+
+.borden-right-none {
+  border-right: none !important;
+}
+
+.date {
+  color: #aeaeae;
+  font-size: 13px;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Шапка сайта
+*/
+
+.wrapper-header {
+  width: 100%;
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d9e4f0),color-stop(69%,#d9e4f0),color-stop(83%,rgba(217,228,240,0.81)),color-stop(92%,rgba(217,228,240,0.68)),color-stop(100%,rgba(217,228,240,0)));
+  background: -webkit-linear-gradient(top,#d9e4f0 0%,#d9e4f0 69%,rgba(217,228,240,0.81) 83%,rgba(217,228,240,0.68) 92%,rgba(217,228,240,0) 100%);
+  background: -webkit-linear-gradient(top, #d9e4f0 0%, #d9e4f0 69%, rgba(217,228,240,0.81) 83%, rgba(217,228,240,0.68) 92%, rgba(217,228,240,0) 100%);
+  background: linear-gradient(to bottom,#d9e4f0 0%,#d9e4f0 69%,rgba(217,228,240,0.81) 83%,rgba(217,228,240,0.68) 92%,rgba(217,228,240,0) 100%);
+}
+
+.header {
+  width: 1068px;
+  height: 421px;
+  margin: 0 auto 20px;
+  background: url("../img/backgrounds/header_bg.png") no-repeat;
+  position: relative;
+}
+
+.header__logo {
+  position: absolute;
+  top: 22px;
+  left: 31px;
+  width: 222px;
+  height: 147px;
+  background: url("../img/logo.png") no-repeat;
+  color: transparent;
+  text-shadow: none;
+  font: 0/0 a;
+}
+
+.header__logo a {
+  display: block;
+  height: 100%;
+}
+
+.header__phones {
+  position: absolute;
+  top: 22px;
+  right: 405px;
+  text-align: right;
+  line-height: 1.1;
+}
+
+.header__phones_big {
+  font-size: 39px;
+}
+
+.header__menu {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 1024px;
+  position: absolute;
+  left: 22px;
+  bottom: 0;
+  height: 60px;
+  border-radius: 8px;
+  background: url("../img/backgrounds/menu_bg.png") repeat-x;
+}
+
+.header__menu > li {
+  position: relative;
+  float: left;
+  text-align: center;
+  list-style: none;
+  width: 20%;
+  height: 60px;
+  border-left: 1px solid #31a7e8;
+  border-right: 1px solid #102493;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 60px;
+  z-index: 2;
+}
+
+.header__menu > li a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  height: 100%;
+}
+
+.header__menu > li:hover {
+  background: url("../img/backgrounds/menu_hover_bg.png") repeat-x;
+}
+
+.header__menu_move-down {
+  display: none;
+  width: 100%;
+  border-radius: 0 0 4px 4px;
+  background: #403d40;
+}
+
+.header__menu_move-down li {
+  float: none;
+  display: block;
+  line-height: 1;
+}
+
+.header__menu_move-down li a {
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.header__menu_move-down li a:hover {
+  background: #201e20;
+  border-radius: 0 0 4px 4px;
+}
+
+.how-to-get {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
+.how-to-get__yandex-maps {
+  margin-top: 18px;
+  background: url("../img/how-to-get.png");
+  height: 84px;
+  width: 357px;
+}
+
+.how-to-get__yandex-maps a {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  padding: 28px 0 0 120px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.how-to-get__yandex-maps a p {
+  font-size: 11px;
+  background: #fff;
+  color: #000;
+  max-width: 195px;
+  max-height: 45px;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Основная часть документа - layout
+*/
+
+.layout {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.layout:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Сайдбар
+*/
+
+.sidebar {
+  width: 256px;
+  float: left;
+  height: 100%;
+}
+
+.sidebar__banner {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 7px;
+  border: 1px solid #acacac;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.sidebar__nav {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px dashed #7b7b7b;
+  width: 256px;
+  margin-bottom: 20px;
+}
+
+.sidebar__nav > li {
+  padding: 12px 24px 12px 27px;
+  text-align: left;
+  color: #191a1a;
+  list-style: none;
+  position: relative;
+  display: block;
+  color: #191a1a;
+}
+
+.sidebar__nav > li:hover {
+  background: url("../img/backgrounds/nav_hover_bg.png") repeat;
+  color: #fff;
+}
+
+.sidebar__nav > li:before {
+  position: absolute;
+  top: 18px;
+  left: 11px;
+  height: 6px;
+  width: 6px;
+  background: #5b5b5b;
+  border-radius: 3px;
+  content: '';
+}
+
+.sidebar__nav > li:hover:before {
+  background: #fff;
+}
+
+.sidebar__nav > li:after {
+  position: absolute;
+  top: 18px;
+  right: 11px;
+  border: 4px solid transparent;
+  border-left-color: #5b5b5b;
+  content: '';
+}
+
+.sidebar__nav > li:hover:after {
+  border-left-color: #fff;
+}
+
+.sidebar__nav > li a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+
+.sidebar__nav_move-right {
+  top: 0;
+  left: 99%;
+  position: absolute;
+  display: none;
+  width: 100%;
+  border-radius: 0 4px 4px 0;
+  background: url("../img/backgrounds/nav_hover_bg.png") repeat;
+}
+
+.sidebar__nav_move-right li {
+  float: none;
+  display: block;
+  line-height: 1;
+}
+
+.sidebar__nav_move-right li a {
+  color: #fff;
+  padding: 10px;
+}
+
+.sidebar__nav_move-right li a:hover {
+  background: #388dee;
+  border-radius: 0 4px 4px 0;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Контент
+* Первая часть - основыне стили контента, заголовки, путеводитель.
+*/
+
+.content {
+  width: 705px;
+  float: right;
+  padding-top: 10px;
+  height: 100%;
+}
+
+.content p {
+  line-height: 20px;
+  margin: 20px 0;
+}
+
+.content__article {
+  margin: 20px 0;
+}
+
+.content p {
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+.content__article:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.content__title {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #1a252c;
+}
+
+.content__sub-title {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #1a252c;
+  margin: 15px 0;
+}
+
+.content__sub-title a {
+  color: #2e6ebb;
+}
+
+.content__img_left {
+  float: left;
+  margin: 15px 15px 5px 0;
+  border-radius: 4px;
+}
+
+.content__nav {
+  margin: 20px 0;
+}
+
+.content__nav p {
+  color: #c7c7c7;
+}
+
+.content__nav p a {
+  color: #2e6ebb;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Контент
+* Вторая часть - стили для геолокации, а так же стили формы обратной связи, на месте re-captcha установить собственно его же и установить.
+*/
+
+.geolocation {
+  margin: 15px 0;
+  height: 450px;
+  width: 740px;
+  z-index: 15;
+}
+
+.contacts-form {
+  color: #1a252c;
+  max-width: 385px;
+}
+
+.contacts-form__label {
+  color: #1a252c;
+}
+
+.contacts-form__input {
+  margin: 15px 0;
+  display: block;
+  width: 255px;
+  height: 40px;
+  border: 1px solid #6e6e6e;
+  background: #fff;
+  border-radius: 4px;
+  padding: 0 15px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contacts-form__message {
+  margin: 15px 0;
+  width: 385px;
+  height: 140px;
+  border: 1px solid #6e6e6e;
+  background: #fff;
+  resize: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contacts-form__btn {
+  float: right;
+  width: 128px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background: url("../img/backgrounds/btn_contacts_bg.png") repeat-x;
+}
+
+.contacts-form__btn p {
+  text-align: centre;
+  line-height: 40px;
+  margin: 0;
+  color: #fff;
+}
+
+.re-captcha {
+  width: 236px;
+  height: 97px;
+  background: #880500;
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.re-captcha p {
+  margin: 0;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Контент
+* третья часть - стили для двух таблиц по ценам и по параметрам товаров.
+*/
+
+.goods-parameters {
+  border-radius: 4px;
+  display: block;
+  font-weight: 400;
+  margin: 20px 0;
+  width: 705px;
+  height: 800px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.goods-parameters td {
+  background: #fff;
+  height: 40px;
+  min-width: 63px;
+}
+
+.goods-parameters td,
+.goods-parameters th {
+  border: 1px solid #919191;
+  padding: 5px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.goods-parameters__weight_header {
+  font-weight: 400;
+  background: #b69bb6;
+  min-width: 128px;
+}
+
+.goods-parameters__weight td {
+  background: #d6c1d6;
+  font-weight: 400;
+}
+
+.goods-parameters__width-and-color_header {
+  background: #97b1c3;
+  font-weight: 400;
+  min-width: 128px;
+}
+
+.goods-parameters__width-and-color td {
+  background: #b8d2e6;
+}
+
+.goods-parameters__height {
+  min-width: 128px;
+  background: #edd68e !important;
+}
+
+.goods-parameters__height_header {
+  min-width: 128px;
+  background: #dfc370;
+  font-weight: 400;
+}
+
+.pricelist {
+  font-size: 14px;
+  margin: 20px 0;
+  width: 705px;
+  border-collapse: collapse;
+}
+
+.pricelist-code {
+  width: 128px;
+}
+
+.pricelist-price {
+  width: 95px;
+}
+
+.pricelist-name {
+  width: 482px;
+}
+
+.pricelist th,
+.pricelist td {
+  padding-left: 10px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+  height: 40px;
+}
+
+.pricelist th {
+  background: #256ec9;
+  color: #fff;
+  text-align: left;
+  font-weight: 400;
+  border: none;
+  border-right: 1px solid #fff;
+}
+
+.pricelist td {
+  border: 1px solid #919191;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Контент
+* четвертая часть - стили для страницы со списком статей, и началом их содержания, а так же счетчиком страниц
+*/
+
+.article__short {
+  border-bottom: 1px dashed #979799;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.article__short_text-blok {
+  margin-left: 240px;
+}
+
+.article__short p {
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+.article__short a {
+  color: #2e6ebb;
+}
+
+.article__short:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.page-counter {
+  list-style: none;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+
+.page-counter li {
+  height: 34px;
+  width: 34px;
+  text-align: center;
+  float: left;
+  border: 1px solid #ddd;
+}
+
+.page-counter li a {
+  text-decoration: none;
+  color: #6b8bcd;
+  display: block;
+  height: 100%;
+  padding: 7px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.page-counter li a:hover {
+  background: #6b8bcd;
+  color: #fff;
+  border: 1px solid #6b8bcd;
+}
+
+.page-counter:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Каталог с большими картинками и типами товаров
+*/
+
+.catalog-big {
+  width: 705px;
+  margin: 0 auto 25px;
+  list-style: none;
+}
+
+.catalog-big li {
+  width: 220px;
+  margin-right: 20px;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.catalog-big li p {
+  font-size: 23px;
+  text-align: center;
+  color: #0a0e10;
+  margin: 10px 0;
+  font-weight: 300;
+}
+
+.catalog-big li a {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+}
+
+.catalog-big li a img {
+  width: 220px;
+  height: 160px;
+  border-radius: 4px;
+}
+
+.catalog-big:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Каталог с разновидностями товаров
+*/
+
+.catalog-middle {
+  width: 705px;
+  margin: 0 auto 25px;
+  list-style: none;
+}
+
+.catalog-middle__section {
+  vertical-align: top;
+  width: 330px;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding-right: 20px;
+}
+
+.catalog-middle__section img {
+  float: left;
+  border-radius: 2px;
+  margin-right: 16px;
+}
+
+.catalog-middle__section h4 {
+  color: #0a0e10;
+  font-size: 28px;
+  font-weight: 300;
+  margin-left: 80px;
+}
+
+.catalog-middle__section ul {
+  list-style: disc;
+  margin: 10px 0 0 80px;
+  font-weight: 300;
+  padding-left: 20px;
+}
+
+.catalog-middle__section ul li {
+  margin: 3px 0;
+}
+
+.catalog-middle__section a {
+  color: #1e66b9;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Каталог с комплектующими
+*/
+
+.catalog-small-header {
+  width: 316px;
+  height: 40px;
+  background: url("../img/backgrounds/catalog_small_header_bg.png") no-repeat;
+  margin: 0 auto;
+}
+
+.catalog-small-header h3 {
+  width: 193px;
+  margin: 0 auto;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.catalog-small {
+  width: 705px;
+  margin: 0 auto 25px;
+  list-style: none;
+}
+
+.catalog-small__section {
+  vertical-align: top;
+  display: inline-block;
+  width: 212px;
+  margin-bottom: 30px;
+  padding-right: 20px;
+}
+
+.catalog-small__section_text-blok {
+  margin-left: 80px;
+}
+
+.catalog-small__section_text-blok h4 {
+  color: #0a0e10;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.catalog-small__section_text-blok a {
+  font-weight: 300;
+  color: #1e66b9;
+  font-size: 13px;
+}
+
+.catalog-small__section img {
+  float: left;
+  border-radius: 2px;
+  margin-right: 16px;
+}
+
+.catalog-small:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Горизонтальный новостной блок, который расположен на главной странице.
+*/
+
+.news {
+  width: 100%;
+}
+
+.news__header {
+  width: 256px;
+  height: 40px;
+  background: url("../img/backgrounds/news_header_center_bg.png") no-repeat;
+  margin: 0 auto;
+}
+
+.news__header h3 {
+  height: 100%;
+  width: 131px;
+  margin: 0 auto;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.news__section_horizontal {
+  width: 1024px;
+  margin: 0 auto 25px;
+  list-style: none;
+  height: 100%;
+}
+
+.news__section_horizontal li {
+  width: 290px;
+  margin-right: 77px;
+  float: left;
+  border-radius: 4px;
+}
+
+.news__section_horizontal li p {
+  line-height: 30px;
+}
+
+.news__section_horizontal li a {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+}
+
+.news__section_horizontal li a img {
+  width: 290px;
+  height: 120px;
+}
+
+.news__section_horizontal:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.news__section_vertical {
+  width: 256px;
+  margin: 0 auto 25px;
+  list-style: none;
+  height: 100%;
+}
+
+.news__section_vertical li {
+  border-radius: 4px;
+  margin-top: 25px;
+}
+
+.news__section_vertical li p {
+  line-height: 30px;
+}
+
+.news__section_vertical li a {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+}
+
+.news__section_vertical li a img {
+  width: 256px;
+  height: auto;
+}
+
+.news__section_vertical:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Футер
+*/
+
+.footer-wrap {
+  width: 100%;
+  height: 80px;
+  background: url("../img/backgrounds/footer_bg.png") repeat-x;
+}
+
+.footer {
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+  height: 80px;
+}
+
+.footer__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 242px;
+  height: 80px;
+  background: url("../img/footer_logo.png") no-repeat;
+  color: transparent;
+  text-shadow: none;
+  font: 0/0 a;
+}
+
+.footer__logo a {
+  display: block;
+  height: 100%;
+}
+
+.footer__menu {
+  width: 675px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer__menu > li {
+  position: relative;
+  float: left;
+  text-align: center;
+  list-style: none;
+  width: 20%;
+  height: 60px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 60px;
+  z-index: 2;
+}
+
+.footer__menu > li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  height: 100%;
+}
+
+.footer__menu > li:hover {
+  background: url("../img/backgrounds/footer_menu_hover_bg.png") repeat-x;
+}
+
+.footer__menu_move-up {
+  position: absolute;
+  top: auto;
+  bottom: 100%;
+  display: none;
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  background: url("../img/backgrounds/footer_bg_move-up.png") repeat;
+}
+
+.footer__menu_move-up li {
+  float: none;
+  display: block;
+  line-height: 1;
+}
+
+.footer__menu_move-up li a {
+  color: #fff;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.footer__menu_move-up li a:hover {
+  background: url("../img/backgrounds/footer_menu_hover_bg.png") repeat;
+  border-radius: 4px 4px 0 0;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+* Блок под футером с информацией о разработчике
+*/
+
+.under-footer {
+  width: 1024px;
+  height: 55px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.under-footer p {
+  position: absolute;
+  top: 12px;
+  right: 4px;
+  font-size: 13px;
+}
+
+.under-footer p a {
+  color: #2f8ddd;
+}
+
+/*-------------------------------------------------------------------------------*/

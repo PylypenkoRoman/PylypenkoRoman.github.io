@@ -1,0 +1,306 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<head>
+	<meta charset="utf-8">
+	<title>Twitter</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/screen.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div class="header-wrapper">
+        <div class="header">
+            <ul class="menu">
+                <li class="home"><a href="#">Home</a></li>
+                <li class="connect"><a href="#">Connect</a></li>
+                <li class="discover"><a href="#">Discover</a></li>
+            </ul>
+            <ul class="addition-buttons">
+                <li class="compose"></li>
+                <li class="user"></li>
+                <li class="search">
+                    <input type="search" placeholder="Search">
+                    <input type="submit" value="">
+                </li>
+            </ul>
+            <div class="close-open-tweets"></div>
+        </div>
+    </div>
+    <div class="layout">
+        <div class="twitter-block profile">
+            <a class="avatar" href="#"><img src="images/avatar.png" alt="" /></a>
+            <div class="info-box">
+                <div class="buttons-block">
+                    <div class="follow-btn">Follow</div>
+                    <div class="action-btn"></div>
+                </div>
+                <ul class="profile-statistics">
+                    <li><span>4,403</span> tweets</li>
+                    <li><span>692</span> following</li>
+                    <li><span>438</span> followers</li>
+                </ul>
+            </div>
+            <h2 class="name">Every Interaction <span class="checked-icon_big"></span></h2>
+            <p class="address">@EveryInteract</p>
+            <p class="description">Making the very best quality PSDs for every interface and every Interaction.</p>
+            <p class="location">London, UK <a href="#">http://www.everyinteraction.com/</a></p>
+        </div>
+        <div class="sidebar">
+            <div class="twitter-block tweet-search-block">
+                <h3>Tweet to Every Interaction</h3>
+                <form>
+                    <input type="search" placeholder="@EveryInteract">
+                </form>
+            </div>
+            <div class="twitter-block">
+                <ul class="addition-nav">
+                    <li><a href="#">Tweets <i class="fa fa-chevron-right"></i></a></li>
+                    <li><a href="#">Following <i class="fa fa-chevron-right"></i></a></li>
+                    <li><a href="#">Followers <i class="fa fa-chevron-right"></i></a></li>
+                    <li><a href="#">Favorites <i class="fa fa-chevron-right"></i></a></li>
+                    <li><a href="#">Lists <i class="fa fa-chevron-right"></i></a></li>
+                    <li><a href="#">Recent images <i class="fa fa-chevron-right"></i></a></li>
+                </ul>
+                <ul class="list-of-middle-icon">
+                    <li><a href="#"><img src="images/icon_middle.png" alt="" /></a></li>
+                    <li><a href="#"><img src="images/icon_middle.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/icon_middle.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/icon_middle.png" alt=""/></a></li>
+                </ul>
+            </div>
+            <div class="twitter-block">
+                <ul class="addition-nav">
+                    <li><a href="#">Similar to Every Interaction <i class="fa fa-chevron-right"></i></a></li>
+                </ul>
+                <ul class="interaction">
+                    <li>
+                        <a href="#" class="small-avatar"><img src="images/icon_small.png" alt=""/></a>
+                        <span class="name">Jon Darke</span>
+                        <span class="checked-icon_small"></span>
+                        <span class="address">@Darkejon</span>
+                        <a href="#">Follow</a>
+                    </li>
+                    <li>
+                        <a href="#" class="small-avatar"><img src="images/icon_small.png" alt=""/></a>
+                        <span class="name">Neil Gardiner</span>
+                        <span class="checked-icon_small"></span>
+                        <span class="address">@NeilGardiner</span>
+                        <a href="#">Follow</a>
+                    </li>
+                    <li>
+                        <a href="#" class="small-avatar"><img src="images/icon_small.png" alt=""/></a>
+                        <span class="name">Multi Adaptor</span>
+                        <span class="address">@MultiAdaptor</span>
+                        <a href="#">Follow</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="twitter-block">
+                <div class="logo"></div>
+                <ul class="tags-block">
+                    <li><a href="#">© 2011 Twitter</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Status</a></li>
+                    <li><a href="#">Apps</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Advertisers</a></li>
+                    <li><a href="#">Businesses</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-header">Tweets</div>
+            <ul id="post-list">
+
+
+                <li class="post-wrap first-post-wrap">
+                    <div class="post">
+                        <a class="middle-avatar stopPropagation"href="#"><img src="images/avatar.png" alt=/></a>
+                        <div class="post-content">
+                            <span class="name">Every Interaction</span>
+                            <span class="address">@EveryInteract</span><br>
+                            <p>Christmas presents for designers, Pantone baubles <a href="#">seletti.it/pantone/panton</a>/ (via<a href="#">@andyhawkes</a>)</p>
+                            <a class="hide-photo">Hide photo</a>
+                            <img class="post-image stopPropagation" src="images/post_img.png" alt=""/>
+                            <div class="under-photo">
+                                powered by <span class="author">Photobucket</span>
+                                <span  class="flag">Flag this media</span>
+                            </div>
+                        </div>
+                        <div class="post-additional-part">
+                            <div class="post-info">
+                                <div class="retweets">
+                                    <span class="post-info-counter">18</span><br>
+                                    <span>Retweets</span>
+                                </div>
+                                <div class="favorites">
+                                    <span class="post-info-counter">8</span><br>
+                                    <span>Favorites</span>
+                                </div>
+                                <ul class="favorites-avatars">
+                                    <li>
+                                        <a href="https://twitter.com/"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <span class="post-date">9:55 AM, Dec 1st via web · <a href="#">Details</a></span>
+                            <div class="post-buttons">
+                                <span><i class="fa fa-reply"></i> Reply</span>
+                                <span><i class="fa fa-retweet"></i>Retweet</span>
+                                <span><i class="fa fa-star"></i> Favorite</span>
+                            </div>
+                        </div>
+                        <span class="time">1 hr</span>
+                        <span class="btn-close-post">Close</span>
+                    </div>
+                    <ul class="comment-list">
+                        <li class="comment">
+                            <a href="#" class="small-avatar"><img src="images/icon_small.png" alt=""/></a>
+                            <div class="text-block">
+                                <span class="name">Jon Darke</span>
+                                <span class="address">@Darkejon</span><br>
+                                <p><a href="#">@EveryInteract</a> Christmas cards for designer/developers.... Pantone Christmas cards (I got a set for my team last year!)</p>
+                            </div>
+                            <span class="time">1 hr</span>
+                        </li>
+                        <li class="comment">
+                            <a href="#" class="small-avatar"><img src="images/icon_small.png" alt=""/></a>
+                            <div class="comment-content">
+                                <span class="name">Neil Gardiner</span>
+                                <span class="address">@NeilGardiner</span><br>
+                                <p><a href="#">@EveryInteract</a> Oooooooh! Another Pantone product! How amazing!</p>
+                            </div>
+                            <span class="time">1 hr</span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="post-wrap">
+
+                    <div class="post">
+                        <a class="middle-avatar stopPropagation"href="#"><img src="images/avatar.png" alt=/></a>
+                        <div class="post-content">
+                            <span class="name">Every Interaction</span>
+                            <span class="address">@EveryInteract</span><br>
+                            <p>Christmas presents for designers, Pantone baubles <a href="#">seletti.it/pantone/panton</a>/ (via<a href="#">@andyhawkes</a>)</p>
+                            <span class="in-reply"><i class="fa fa-reply"></i> in reply to Jon Darke</span>
+                        </div>
+                        <div class="post-additional-part">
+                            <div class="post-info">
+                                <div class="retweets">
+                                    <span class="post-info-counter">18</span><br>
+                                    <span>Retweets</span>
+                                </div>
+                                <div class="favorites">
+                                    <span class="post-info-counter">8</span><br>
+                                    <span>Favorites</span>
+                                </div>
+                                <ul class="favorites-avatars">
+                                    <li>
+                                        <a href="#"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/avatar_little.png" alt=""/></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <span class="post-date">9:55 AM, Dec 1st via web · <a href="#">Details</a></span>
+                            <div class="post-buttons">
+                                <span><i class="fa fa-reply"></i> Reply</span>
+                                <span><i class="fa fa-retweet"></i>Retweet</span>
+                                <span><i class="fa fa-star"></i> Favorite</span>
+                            </div>
+                        </div>
+                        <span class="time">1 hr</span>
+                        <span class="btn-close-post">Close</span>
+                    </div>
+                </li>
+                <li class="post-wrap">
+                    <div class="post">
+                        <a class="middle-avatar stopPropagation"href="#"><img src="images/avatar.png" alt=/></a>
+                        <div class="post-content">
+                            <span class="name">Every Interaction</span>
+                            <span class="address">@EveryInteract</span><br>
+                            <p>Christmas presents for designers, Pantone baubles <a href="#">seletti.it/pantone/panton</a>/ (via<a href="#">@andyhawkes</a>)</p>
+                        </div>
+                        <span class="time">1 hr</span>
+                        <span class="btn-close-post">Close</span>
+                    </div>
+                </li>
+                <li class="post-wrap">
+                    <div class="post">
+                        <a class="middle-avatar stopPropagation"href="#"><img src="images/avatar.png" alt=/></a>
+                        <div class="post-content">
+                            <span class="name">Every Interaction</span>
+                            <span class="address">@EveryInteract</span><br>
+                            <p>Christmas presents for designers, Pantone baubles <a href="#">seletti.it/pantone/panton</a>/ (via<a href="#">@andyhawkes</a>)</p>
+                        </div>
+                        <span class="time">1 hr</span>
+                        <span class="btn-close-post">Close</span>
+                    </div>
+                </li>
+                <li class="post-wrap last-post-wrap">
+                    <div class="post">
+                        <a class="middle-avatar stopPropagation"href="#"><img src="images/avatar.png" alt=/></a>
+                        <div class="post-content">
+                            <span class="name">Every Interaction</span>
+                            <span class="address">@EveryInteract</span><br>
+                            <p>Christmas presents for designers, Pantone baubles <a href="#">seletti.it/pantone/panton</a>/ (via<a href="#">@andyhawkes</a>)</p>
+                            <span class="retweeted-by"><i class="fa fa-retweet"></i> Retweeted by Every Interaction</span>
+                        </div>
+                        <span class="time">1 hr</span>
+                        <span class="btn-close-post">Close</span>
+                        <div class="retweet-massage"></div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+
