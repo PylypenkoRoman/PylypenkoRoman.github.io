@@ -250,7 +250,7 @@ a {
   width: 170px;
 }
 
-.polaroids li:nth-child(2) a {
+.polaroids li:nth-child(6n+2) a {
   -webkit-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
   transform: rotate(2deg);
@@ -264,7 +264,7 @@ a {
   top: -5px;
 }
 
-.polaroids li:nth-child(4) a {
+.polaroids li:nth-child(7n+4) a {
   -webkit-transform: rotate(5deg);
   -ms-transform: rotate(5deg);
   transform: rotate(5deg);
@@ -278,7 +278,7 @@ a {
   top: 4px;
 }
 
-.polaroids li:nth-child(6) a {
+.polaroids li:nth-child(4n+6) a {
   -webkit-transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
   transform: rotate(-5deg);
