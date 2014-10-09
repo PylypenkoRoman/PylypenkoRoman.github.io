@@ -1,0 +1,93 @@
+@media screen and (max-width: 1270px) {
+    .persone-case-info .sub-title {
+        float: none !important;
+        margin-bottom: 30px;
+    }
+    .persone-case-info .sub-title:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .menu li a {
+        padding: 0 20px;
+    }
+    .menu .home {
+        padding: 20px 20px;
+    }
+    .menu li:last-child a{
+        padding: 0px 20px;
+    }
+    .cards .card-wrapper{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .sorting li a{
+        padding: 0 2px;
+    }
+        .project-counter__logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1055px) {
+    .menu li a {
+        padding: 0 15px;
+    }
+    .menu .home {
+        padding: 20px 15px;
+    }
+    .menu li:last-child a{
+        padding: 0px 15px;
+    }
+    .logo {
+        left: 18px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    .three-selects-wrapper{
+        width: 100%;
+        margin-left: -15px;
+    }
+    .three-selects-wrapper .select-holder {
+        padding-left: 15px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        width: 50%;
+    }
+    .three-selects-wrapper .select-holder:first-child{
+        float: none;
+        margin: 0 auto 20px;
+        height: 40px;
+    }
+    .abc-block li{
+        margin-right: 20px;
+    }
+    .team-list li .pop-up{
+        top: 35%;
+        padding: 10px 5px;
+    }
+    .persone-case-info .sub-title {
+        float: none !important; ;
+    }
+    .first-column,
+    .second-column{
+        float: none;
+        width: 600px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .menu li a {
+        padding: 0 9px;
+    }
+    .menu .home {
+        padding: 20px 9px;
+    }
+    .menu li:last-child a{
+        padding: 0px 9px;
+    }
+}

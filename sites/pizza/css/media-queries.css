@@ -1,0 +1,126 @@
+/*other sizes*/
+
+@media screen and (min-device-width: 961px) and ( max-width: 1199px) {
+    .pizza-img-top{
+        width: 510px;
+    }
+    .pizza-img-bottom{
+        width: 485px;
+    }
+    .steps-text-block{
+        margin: 10px 20px;
+        font-size: 20px;
+        max-width: 360px;
+    }
+    .promo h2 {
+        font-size: 52px;
+    }
+    .delivery {
+        display: none;
+    }
+}
+@media screen and (min-device-width: 769px) and ( max-width: 991px) {
+    .delivery,
+    .pizza-img-bottom,
+    .arrow,
+    .steps-block{
+        display: none;
+    }
+     .features .text-block{
+        width: 100%;
+    }
+    .layout{
+        padding-top: 40px;
+    }
+    .promo h2 {
+    font-size: 40px;
+    text-align: center;
+    }
+    .promo {
+        min-height: 330px;
+        padding-bottom: 20px;
+    }
+    .promo .button{
+        width: 245px !important;
+    }
+}
+@media screen and (min-device-width: 480px) and ( max-width: 768px) {
+    .pizza-img-bottom,
+    .delivery,
+    .arrow,
+    .steps-block,
+    .pizza-img-top{
+        display: none;
+    }
+    .promo {
+        min-height:  100px;
+        padding-bottom: 20px;
+    }
+    .promo .button{
+        margin: 30px auto 20px;
+        width: 245px !important;
+    }
+    .promo h2 {
+        text-align: center;
+        margin: 0 auto 20px;
+        max-width: 450px;
+    }
+    .promo p {
+        text-align: center;
+        margin: 0 auto 20px;
+    }
+}
+@media screen and ( max-width: 630px) {
+    .pizza-img-bottom,
+    .delivery,
+    .arrow,
+    .steps-block,
+    .pizza-img-top{
+        display: none;
+    }
+    .header{
+        padding: 10px 0 0 0;
+        width: 100%;
+    }
+    .logo{
+        background-image: url("../img/logo_small.png");
+        width: 271px;
+        height: 59px;
+        display: block;
+        margin: 0 auto;
+        position: static;
+        margin-bottom: 10px;
+    }
+    .phone {
+        background-image: url("../img/call_us_bg_small.png");
+        height: 59px;
+        padding-left: 39px;
+        width: 243px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        position: static;
+    }
+    .promo h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .call-me{
+        text-align: center;
+    }
+    .item-photo {
+        padding: 20px 0;
+    }
+    .features .text-block h5,
+    .features .text-block p{
+        text-align: center;
+    }
+    .button{
+        width: auto;
+    }
+    .features .text-block {
+        width: 100%;
+    }
+}
+
+
+

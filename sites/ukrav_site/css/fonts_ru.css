@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'kelson_sans_bold';
+    src: url('fonts/kelson_sans_bold_ru.eot');
+    src: url('fonts/kelson_sans_bold_ru.eot?#iefix') format('embedded-opentype'),
+         url('fonts/kelson_sans_bold_ru.woff') format('woff'),
+         url('fonts/kelson_sans_bold_ru.ttf') format('truetype'),
+         url('fonts/kelson_sans_bold_ru.svg#kelson_sans_rubold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kelson_sans_light';
+    src: url('fonts/kelson_sans_light_ru.eot');
+    src: url('fonts/kelson_sans_light_ru.eot?#iefix') format('embedded-opentype'),
+         url('fonts/kelson_sans_light_ru.woff') format('woff'),
+         url('fonts/kelson_sans_light_ru.ttf') format('truetype'),
+         url('fonts/kelson_sans_light_ru.svg#kelson_sans_rulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kelson_sans_regular';
+    src: url('fonts/kelson_sans_regular_ru.eot');
+    src: url('fonts/kelson_sans_regular_ru.eot?#iefix') format('embedded-opentype'),
+         url('fonts/kelson_sans_regular_ru.woff') format('woff'),
+         url('fonts/kelson_sans_regular_ru.ttf') format('truetype'),
+         url('fonts/kelson_sans_regular_ru.svg#kelson_sans_ruregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

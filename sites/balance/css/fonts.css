@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'pf_din_text_comp_probold';
+    src: url('fonts/pfdintextcomppro-bold-webfont.eot');
+    src: url('fonts/pfdintextcomppro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pfdintextcomppro-bold-webfont.woff') format('woff'),
+         url('fonts/pfdintextcomppro-bold-webfont.ttf') format('truetype'),
+         url('fonts/pfdintextcomppro-bold-webfont.svg#pf_din_text_comp_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pt_sansbold';
+    src: url('fonts/pt_sans-web-bold-webfont.eot');
+    src: url('fonts/pt_sans-web-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pt_sans-web-bold-webfont.woff') format('woff'),
+         url('fonts/pt_sans-web-bold-webfont.ttf') format('truetype'),
+         url('fonts/pt_sans-web-bold-webfont.svg#pt_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('fonts/pt_sans-web-regular-webfont.eot');
+    src: url('fonts/pt_sans-web-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pt_sans-web-regular-webfont.woff') format('woff'),
+         url('fonts/pt_sans-web-regular-webfont.ttf') format('truetype'),
+         url('fonts/pt_sans-web-regular-webfont.svg#pt_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

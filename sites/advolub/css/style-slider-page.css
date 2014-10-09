@@ -1,0 +1,303 @@
+.advolab-wrapper{
+    width: 100%;
+}
+.advolab-start-page-wrapper{
+    width: 100%;
+    background: #0fabab;
+}
+.advolab-start-page{
+    width: 1216px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 60px 128px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 395px;
+}
+.advolab-start-page .text-block{
+    max-width: 470px;
+    float: right;
+}
+.advolab-start-page .text-block h3{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'helveticaneuecyrbold',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.advolab-start-page .text-block p{
+    font-family: 'helveticaneuecyrlight', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.advolab-start-page .text-block a{
+    font-family: 'helveticaneuecyrbold',Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    height: 46px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 23px;
+    line-height: 25px;
+    font-size: 16px;
+    background: #006767;
+    position: relative;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-weight: bold;
+}
+.advolab-start-page .text-block a:after{
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 23px solid transparent;
+    border-left: 20px solid #006767;
+    border-right: 20px solid transparent;
+    border-bottom: 23px solid transparent;
+    position:absolute;
+    top: 0;
+    right: -40px
+}
+.advolab-start-page .advolab-logo{
+    background: url("../images/advolab-logo.png") no-repeat;
+    width: 434px;
+    height: 275px;
+    position:absolute;
+    top: 60px;
+    left: 138px
+}
+.advolab-start-page:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.advolab-page{
+    background: #f8f8f8;
+    width: 100%;
+}
+.advolab-menu-wrapper{
+    background: #0fabab;
+}
+.advolab-menu{
+    width: 1216px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 128px;
+    height: 46px;
+    margin: 0 auto;
+    position: relative;
+    text-align: justify;
+}
+.advolab-menu a{
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'helveticaneuecyrlight', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    height: 46px;
+    line-height: 36px;
+    padding: 5px 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.advolab-menu .active{
+    background: #FFF;
+    color: #000;
+}
+.advolab-menu .active:after{
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 23px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 14px solid transparent;
+    border-bottom: 23px solid transparent;
+    position:absolute;
+    top: 0;
+    right: -28px
+}
+.advolab-menu:after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+.advolab-menu-icon{
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    background-size: 10% 10%;
+    margin-right: 5px;
+}
+.icon_1{
+    background: url("../images/slider_icon_1.png") center center no-repeat;
+}
+.icon_2{
+    background: url("../images/slider_icon_2.png") center center no-repeat;
+}
+.icon_3{
+    background: url("../images/slider_icon_3.png") center center no-repeat;
+}
+.icon_4{
+    background: url("../images/slider_icon_4.png") center center no-repeat;
+}
+.icon_5{
+    background: url("../images/slider_icon_5.png") center center no-repeat;
+}
+.icon_6{
+    background: url("../images/slider_icon_6.png") center center no-repeat;
+}
+.icon_7{
+    background: url("../images/slider_icon_7.png") center center no-repeat;
+}
+
+
+.advolab-block{
+    width: 1216px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 25px 128px 75px;
+    margin: 0 auto;
+    position: relative;
+}
+.advolab-block:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.advolab-content{
+    margin-right: 245px;
+}
+.advolab-sidebar{
+    width: 224px;
+    float: right;
+    padding-top: 15px
+}
+.advolab-sidebar-slider{
+    padding: 13px 20px 35px;
+    min-height: 395px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #dfdfdf;
+}
+.advolab-sidebar-slider .slider-title{
+    font-size: 19px;
+    color: #000;
+    font-family: 'helveticaneuecyrmedium', Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+.advolab-sidebar-slider .slider-title-icon{
+    background: url("../images/slider-slider-icon.png") no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+    width: 24px;
+    height: 22px;
+    vertical-align: middle;
+}
+.advolab-sidebar-slider p, li{
+    color: #000;
+    font-size: 14px;
+    font-family: 'helveticaneuecyrlight', Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.advolab-sidebar-slider ul{
+    margin-left: 20px;
+    list-style-type: disc;
+}
+.advolab-content{
+    margin-right: 245px;
+}
+.advolab-title{
+    font-family: 'helveticaneuecyrmedium', Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-size: 24px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.advolab-title span{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 17px;
+    background: #0FABAB;
+    display: inline-block;
+    vertical-align: middle;
+}
+.advolab-title h3{
+    padding-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 600px;
+}
+.advolab-content-textarea{
+    height: 240px;
+    border: 1px solid #c6c6c6;
+    background: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 35px;
+    resize: none;
+}
+.advolab-content .btn-next{
+    width: 110px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'helveticaneuecyrbold',Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    height: 46px;
+    line-height: 46px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #F43B0E;
+}
+.advolab-content .btn-next:after{
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 23px solid transparent;
+    border-left: 20px solid #F43B0E;
+    border-right: 20px solid transparent;
+    border-bottom: 23px solid transparent;
+    position:absolute;
+    top: 0;
+    right: -40px
+}
+.advolab-content .btn-prev{
+    width: 110px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'helveticaneuecyrbold',Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    height: 46px;
+    line-height: 46px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #006767;
+    margin: 0 20px;
+}
+.advolab-content .btn-prev:after{
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 23px solid transparent;
+    border-right: 20px solid #006767;
+    border-left: 20px solid transparent;
+    border-bottom: 23px solid transparent;
+    position:absolute;
+    top: 0;
+    left: -40px
+}
